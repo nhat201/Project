@@ -1,0 +1,450 @@
+/* div {
+    border: 1px solid;
+} */
+/* background */
+
+body {
+    background-image: url('/img/background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-in {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.information-out {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.information-in {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    border-radius: 40px;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+
+}
+
+/* ---------giới thiệu bản thân------------ */
+/* ----Left Top--- */
+.information-left {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+/*- ảnh- */
+.intro1-left {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagefb {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 45%);
+}
+
+
+/* -hoten- */
+.intro1-right {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+
+}
+
+.intro1-right-name {
+    height: 50%;
+}
+
+.intro1-right-link {
+    height: 50%;
+    display: flex;
+    padding-top: 20px;
+}
+
+
+
+/* button link lket  */
+.social-btns .btn:before,
+.social-btns .btn .fa {
+    transition: all 0.35s;
+}
+
+.social-btns .btn:before {
+    top: 90%;
+    left: -110%;
+}
+
+.social-btns .btn .fa {
+    transform: scale(0.8);
+}
+
+.social-btns .btn.facebook:before {
+    background-color: #3b5998;
+}
+
+.social-btns .btn.facebook .fa {
+    color: #3b5998;
+}
+
+.social-btns .btn.github:before {
+    background-color: #0a0a0a;
+}
+
+.social-btns .btn.github .fa {
+    color: #0a0a0a;
+}
+
+.social-btns .btn.youtube:before {
+    background-color: #fd0808;
+}
+
+.social-btns .btn.youtube .fa {
+    color: #fd0808;
+}
+
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+    top: -10%;
+    left: -10%;
+}
+
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+    color: #fff;
+    transform: scale(1);
+}
+
+.social-btns {
+    margin-top: 30px;
+    font-size: 0;
+    position: absolute;
+}
+
+.social-btns .btn {
+    display: inline-block;
+    background-color: #ffffffd0;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    margin: 0 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 45%;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+}
+
+.social-btns .btn:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.social-btns .btn .fa {
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+
+
+
+/* -------Right Top---- */
+.information-right {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    padding-left: 30px;
+}
+
+.intro2-left {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+
+/* -hoten- */
+.intro2-right {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+
+
+
+/* -------------- Bottom -------------- */
+.Introduce-out {
+    width: 100%;
+    height: 1000px;
+}
+
+.Introduce-in {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+/* ---Left Bottom---- */
+.Introduce-left {
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(60px);
+    
+}
+
+.Introduce-left-0 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.tablinks {
+    transition: all 0.35s;
+    width: 110px;
+    height: 120px;
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+    background-color: #f0f3ec;
+    backdrop-filter: blur(60px);
+}
+
+.Introduce-left-11 {
+    width: 110px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* -----Right Bottom--- */
+.tabcontent {
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(80px);
+    width: 87%;
+    height: auto;
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 20px 20px;
+}
+.line{
+    margin: -20px 0px -15px 0px;
+    width: 80px;
+    height: 5px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+}
+
+/* My Self */
+/* slide show */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+/* ------Favorite------- */
+
+.Game{
+    height: 200px;
+    width: 95%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.gamming{
+    width: 50%;
+    height: 170px;
+    display: flex;
+    margin-right: 30px;
+    background-color: #f1f4f5ad;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+.gamming:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 6px #5f5d5d;
+}
+.imagegame{
+    max-width: 170px;
+    max-height: 170px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 6%;
+    object-fit: cover;
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 45%);
+}
+
+/* --Film-- */
+.film{
+    height: auto;
+    width: 91.8%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+}
+.nicefilm{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f1f4f5ad;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+  
+.nicefilm:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 6px #3f3e3e;
+}
+.imagefilm{
+    max-width: 220px;
+    max-height: 180px;
+    margin: 10px 10px 10px 30px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 45%);
+}
+
+
+
+
+
+
+/* Goal */
+.timeline{
+    width:900px;
+    color:#fff;
+    padding:30px 20px;
+  }
+  .timeline ul{
+    list-style-type:none;
+    border-left:2px solid #949090b4;
+    padding:10px 5px;
+  }
+  .timeline ul li{
+    border-radius: 20px;
+    padding:20px 20px;
+    position:relative;
+    cursor:pointer;
+    transition:.5s;
+  }
+  .timeline ul li span{
+    color: #0a0a0a;
+    display:inline-block;
+    background-color:#8efff6f8;
+    border-radius:25px;
+    padding:2px 5px;
+    font-size:15px;
+    text-align:center;
+  }
+
+  .timeline ul li:before{
+    position:absolute;
+    content:'';
+    width:10px;
+    height:10px;
+    background-color:#57f599e8;
+    border-radius:50%;
+    left:-11px;
+    top:28px;
+    transition:.7s;
+  }
+  .timeline ul li:hover{
+    background-color:#ffffff79;
+  }
+  .timeline ul li:hover:before{
+    background-color:rgba(248, 6, 6, 0.952);
+    box-shadow:0px 0px 10px 2px rgba(253, 6, 6, 0.897);
+  }
+  h3{
+    color: #000;
+  }
+  p{
+    color: #000;
+  }
